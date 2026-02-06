@@ -1,0 +1,13 @@
+git status
+git add .
+git status
+clear
+git commit -m "added testing files"
+git config --global user.email "nikhil3k@gmail.com";
+git config --global user.name "nikhil3593";
+git commit -m "added testing files"
+rm testing.py
+ls
+git status
+git restore testing.py
+git status
